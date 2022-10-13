@@ -15,7 +15,7 @@ body{
 }
 
 .header-nav li{
-    float : left;
+    float : right;
     list-style : none;
     padding : 30px 30px;
 }
