@@ -1,0 +1,53 @@
+*{
+    font-family: "Lucida Grande";
+    box-sizing: border-box;
+}   
+
+.main{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.jawaban{
+    display: inline-block;
+    border-top: 1px solid grey;
+    width: 100%;
+}
+
+.form-jawab{
+    width: 1170px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.board{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,40px);
+    margin: 0 auto;
+}
+
+.grid-item{
+    height: 30px;
+    border: 1px solid black;
+    margin: 0.5px;
+}
+
+.grid-black{
+    background-color: black;
+}
+
+.no-soal{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    float: left;
+}
+
+.p-isi{
+    margin: 0px;
+    padding: 0px;
+}
